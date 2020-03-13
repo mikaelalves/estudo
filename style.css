@@ -1,0 +1,26 @@
+
+
+    .background-img {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        background: url(http://chrisgar.com.br/blog/wp-content/uploads/2011/10/lost-wallpaper.jpg);
+        background-size: cover;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    }
+
+
+@media screen and (max-width: 480px) {
+    body {
+    background: url(http://chrisgar.com.br/blog/wp-content/uploads/2011/10/lost-wallpaper.jpg);
+    background-position: center;
+    }
+    .background-img {
+    display: none;
+    }
